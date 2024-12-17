@@ -2,6 +2,7 @@
 //import { AuthProvider } from './context/AuthContext'
 import ObjectLiterals from './typescript/ObjectLiterals'
 import Counter from './hcomponents/Counter'
+import UserPage from './hcomponents/UserPage'
 //import UserPage from './components/UserPage'
 
 
@@ -16,9 +17,9 @@ function App() {
           {/*coment very importante the estructure*/}
           {/*<ObjectLiterals />*/}
           {/*<BasicFunctions/>*/}
-          <Counter />
+          {/*<Counter />*/}
           {/*<LoginPage/>*/}
-          {/*<UserPage/>*/}
+          <UserPage/>
         </div>
       {/*</AuthProvider>*/}
     </>
